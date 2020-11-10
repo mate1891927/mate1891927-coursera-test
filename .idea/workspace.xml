@@ -37,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605051143869</updated>
-      <workItem from="1605051146362" duration="404000" />
+      <workItem from="1605051146362" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1605051313679</created>
@@ -46,7 +46,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605051313680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test2">
+      <created>1605051558808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605051558808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test2">
+      <created>1605051617826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605051617826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test2">
+      <created>1605051743366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605051743366</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test2">
+      <created>1605051791278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605051791278</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test2">
+      <created>1605051845872</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605051845872</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,16 +89,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1605051557665">
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1605051844828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605051557665" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605051602387">
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605051844828" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605051846876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605051602387" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605051846876" />
   </component>
 </project>
