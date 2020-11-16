@@ -4,12 +4,117 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
+
+
 <style>
+
+    /******* Large devices only *******/
+
+    @media (min-width:1200px) {
+        #eltodo {
+            width: 80%;
+        }
+    }
+
+    /******* Medium devices only *******/
+
+    @media (min-width: 992px) and (max-width:1199px) {
+        #eltodo {
+            width: 60%;
+        }
+    }
+
+    /******* Small devices only *******/
+
+    @media (min-width: 375px) and (max-width: 812px) {
+        #eltodo {
+            width: 50%;
+        }
+    }
+
     body {
         background-color: gray;
     }
+
+     #barra {
+        width:1265px;
+        height:70px;
+        border: 3px solid white;
+        margin-bottom: 15px;
+        background-color: red;
+    }
+
+    #foto1 {
+        position: absolute;
+        bottom:510px;
+        right:1210px;
+    }
+
+    #barra {
+        position: relative;
+        top:40px;
+        left:235px;
+    }
+
+    #barra2 {
+        width:50px;
+        height:70px;
+        border: 2px solid white;
+        margin-bottom: 15px;
+        background-color: white;
+    }
+
+    #barra2 {
+        position: absolute;
+        top:40px;
+        left:500px;
+    }
+
+    #barra3 {
+        width:1265px;
+        height:70px;
+        border: 3px solid white;
+        margin-bottom: 15px;
+
+    }
+
+    #barra3 {
+        position: absolute;
+        top:40px;
+        left:245px;
+    }
+
+    #barra4 {
+        width:50px;
+        height:70px;
+        border: 2px solid white;
+        margin-bottom: 15px;
+        background-color: white;
+    }
+
+    #barra4 {
+        position: absolute;
+        top:40px;
+        left:800px;
+    }
+
+
+
+
 </style>
-<body>
+
+<body id="eltodo">
+
+<img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c4a3.png" width="400px" alt="Logo" id="foto1">
+
+<p id="barra"></p>
+
+<p id="barra2"></p>
+
+<p id="barra3"></p>
+
+<p id="barra4"></p>
 
 </body>
 </html>
