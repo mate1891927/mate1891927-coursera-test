@@ -9,112 +9,324 @@
 
 <style>
 
-    /******* Large devices only *******/
-
-    @media (min-width:1200px) {
-        #eltodo {
-            width: 80%;
-        }
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
-    /******* Medium devices only *******/
-
-    @media (min-width: 992px) and (max-width:1199px) {
-        #eltodo {
-            width: 60%;
-        }
+    body{
+        background: #313D52;
     }
 
-    /******* Small devices only *******/
-
-    @media (min-width: 375px) and (max-width: 812px) {
-        #eltodo {
-            width: 50%;
-        }
+    header{
+        width: 100%;
     }
+
+    .navegacion{
+        width: 1000px;
+        margin: 30px auto;
+        background: #fff;
+    }
+
+    .navegacion ul{
+        list-style: none;
+    }
+
+    .menu > li{
+        position: relative;
+        display: inline-block;
+    }
+
+    .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: black;
+        font-family: "Open sans",monospace;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .menu li a:hover{
+        color: #CE7D35;
+        transition: all .3s;
+    }
+
+    /* Submenu*/
+
+    .submenu{
+        position: absolute;
+        left:0;
+        top: 56px;
+        background: #333333;
+        width: 270px;
+        visibility: unset;
+        opacity: 0;
+        transition: opacity 2s;
+    }
+
+    .submenu li a{
+        display: block;
+        padding: 15px;
+        color: #fff;
+        font-family: "Open sans", monospace;
+        text-decoration: none;
+    }
+
+    .menu li:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+    }
+
 
     body {
         background-color: gray;
     }
 
-     #barra {
+    #barra1 {
+        border: 5px solid silver;
+        margin-bottom: 15px;
+    }
+
+    #barra1 {
+        background-color:red;
         width:1265px;
         height:70px;
-        border: 3px solid white;
-        margin-bottom: 15px;
-        background-color: red;
+    }
+
+    #barra1 {
+        position: relative;
+        top:38px;
+        left:235px;
     }
 
     #foto1 {
         position: absolute;
         bottom:510px;
-        right:1210px;
+        right:1218px;
     }
 
-    #barra {
-        position: relative;
+
+    #divisor1 {
+        width:50px;
+        height:70px;
+        border: 2px solid silver;
+        margin-bottom: 15px;
+        background-color: silver;
+    }
+
+    #divisor1 {
+        position: absolute;
+        top:40px;
+        left:515px;
+    }
+
+    #barra2 {
+        width:1265px;
+        height:70px;
+        border: 4px solid silver;
+        margin-bottom: 15px;
+
+    }
+
+    #barra2 {
+        position: absolute;
         top:40px;
         left:235px;
     }
 
-    #barra2 {
+    #divisor2 {
         width:50px;
         height:70px;
-        border: 2px solid white;
+        border: 2px solid silver;
         margin-bottom: 15px;
-        background-color: white;
+        background-color: silver;
     }
 
-    #barra2 {
+    #divisor2 {
         position: absolute;
         top:40px;
-        left:500px;
+        left:835px;
     }
 
-    #barra3 {
-        width:1265px;
-        height:70px;
-        border: 3px solid white;
-        margin-bottom: 15px;
-
-    }
-
-    #barra3 {
-        position: absolute;
-        top:40px;
-        left:245px;
-    }
-
-    #barra4 {
+    #divisor3 {
         width:50px;
         height:70px;
-        border: 2px solid white;
+        border: 2px solid silver;
         margin-bottom: 15px;
-        background-color: white;
+        background-color: silver;
     }
 
-    #barra4 {
+    #divisor3 {
         position: absolute;
         top:40px;
-        left:800px;
+        left:1155px;
     }
+
+
+    #Inicio {
+        position: absolute;
+        top: 49px;
+        left: 239px;
+        background-color:white;
+        width:276px;
+    }
+
+    #Vehículos {
+        position: absolute;
+        top: 49px;
+        left: 565px;
+        background-color: white;
+        width:270px;
+    }
+
+    #Nosotros {
+        position: absolute;
+        top: 49px;
+        left: 885px;
+        background-color:white;
+        width:270px;
+    }
+
+    #Contacto {
+        position: absolute;
+        top: 49px;
+        left: 1205px;
+        background-color:white;
+        width:291px;
+    }
+
+    #cuadrado1 {
+        display:inline-block;
+        background-color: white;
+        width: 1536px;
+        height: 300px;
+        position: absolute;
+    }
+
+    #cuadrado2 {
+        display:inline-block;
+        background-color: red;
+        width: 370px;
+        height: 485px;
+        position: absolute;
+        bottom:0;
+    }
+
+
+
+    li {
+        text-align:center;
+    }
+
+
+
+
+
+
+    /******* Large devices only *******/
+
+   @media (min-width:1200px) {
+       body {
+           width: 500px;
+           height: 500px;
+       }
+   }
+
+   /******* Medium devices only *******/
+
+   @media (min-width: 992px) and (max-width:1199px) {
+       body {
+           width: 60%;
+       }
+   }
+
+   /******* Small devices only *******/
+
+   @media (min-width: 200px) and (max-width: 991px) {
+       #barra1 {
+           width:115%;
+       }
+   }
+
+    @media (min-width: 200px) and (max-width: 991px) {
+        #divisor1 {
+            width:4%;
+
+        }
+    }
+
+    @media (min-width: 200px) and (max-width: 991px) {
+        #barra2 {
+
+        }
+    }
+
+    @media (min-width: 200px) and (max-width: 991px) {
+        #divisor2 {
+
+        }
+    }
+
+    @media (min-width: 200px) and (max-width: 991px) {
+        #foto1 {
+            position: absolute;
+            bottom:1940px;
+            right:700px;
+            width:30%;
+
+
+        }
+    }
+
+
 
 
 
 
 </style>
 
-<body id="eltodo">
+<body>
+
+<p id="cuadrado1"></p>
+
+<p id="cuadrado2"></p>
 
 <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c4a3.png" width="400px" alt="Logo" id="foto1">
 
-<p id="barra"></p>
+
+
+<p id="barra1"></p>
+
+<p id="divisor1"></p>
 
 <p id="barra2"></p>
 
-<p id="barra3"></p>
+<p id="divisor2"></p>
 
-<p id="barra4"></p>
+<p id="divisor3"></p>
+
+
+
+<header>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li id="Inicio"><a href=#Inicio >Inicio</a></li>
+            <li id="Nosotros"><a href="Nosotros.html" >Nosotros</a></li>
+            <li id="Vehículos"><a href="Vehículos.html" >Vehículos</a>
+                <ul class="submenu">
+                    <li><a href="#">Toyota Corolla</a></li>
+                    <li><a href="#">Toyota 4Runner</a></li>
+                    <li><a href="#">Toyota Tacoma</a></li>
+                </ul>
+            </li>
+            <li id="Contacto"><a href="Contacto.html" >Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
 
 </body>
 </html>
