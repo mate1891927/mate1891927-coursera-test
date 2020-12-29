@@ -2,12 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
 </head>
 
 
 
 <style>
+
+    /********** Base styles **********/
+
+
+    /* Simple Responsive Framework. */
+    .row {
+        width: 100%;
+    }
 
     *{
         margin: 0;
@@ -103,9 +112,8 @@
     }
 
     #foto1 {
-        position: absolute;
-        bottom:510px;
-        right:1218px;
+        float:left;
+
     }
 
 
@@ -229,73 +237,90 @@
     /******* Large devices only *******/
 
    @media (min-width:1200px) {
-       section {
-           width: 10px;
+       .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+           float: left;
+       }
+       .col-lg-1 {
+           width: 8.33%;
+       }
+       .col-lg-2 {
+           width: 16.66%;
+       }
+       .col-lg-3 {
+           width: 25%;
+       }
+       .col-lg-4 {
+           width: 33.33%;
+       }
+       .col-lg-5 {
+           width: 41.66%;
+       }
+       .col-lg-6 {
+           width: 50%;
+       }
+       .col-lg-7 {
+           width: 58.33%;
+       }
+       .col-lg-8 {
+           width: 66.66%;
+       }
+       .col-lg-9 {
+           width: 74.99%;
+       }
+       .col-lg-10 {
+           width: 83.33%;
+       }
+       .col-lg-11 {
+           width: 91.66%;
+       }
+       .col-lg-12 {
+           width: 100%;
        }
    }
 
    /******* Medium devices only *******/
 
-   @media (min-width: 992px) and (max-width:1199px) {
-       body {
-           width: 60%;
-       }
-   }
-
-   /******* Small devices only *******/
-
-    @media (min-width: 200px) and (max-width: 991px) {
-        #barra1 {
-            position: absolute;
-            right:700px;
-            width:1265px;
-            height: 68px;
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+            float: left;
+        }
+        .col-md-1 {
+            width: 8.33%;
+        }
+        .col-md-2 {
+            width: 16.66%;
+        }
+        .col-md-3 {
+            width: 25%;
+        }
+        .col-md-4 {
+            width: 33.33%;
+        }
+        .col-md-5 {
+            width: 41.66%;
+        }
+        .col-md-6 {
+            width: 50%;
+        }
+        .col-md-7 {
+            width: 58.33%;
+        }
+        .col-md-8 {
+            width: 66.66%;
+        }
+        .col-md-9 {
+            width: 74.99%;
+        }
+        .col-md-10 {
+            width: 83.33%;
+        }
+        .col-md-11 {
+            width: 91.66%;
+        }
+        .col-md-12 {
+            width: 100%;
         }
     }
-
-    @media (min-width: 200px) and (max-width: 991px) {
-        #barra2 {
-            width:1265px;
-        }
-    }
-
-    @media (min-width: 200px) and (max-width: 991px) {
-        #divisor1 {
-            position: absolute;
-            width:50px;
-            height: 66px;
-        }
-    }
-
-    @media (min-width: 200px) and (max-width: 991px) {
-        #divisor2 {
-            position: absolute;
-            width:50px;
-            height: 66px;
-        }
-    }
-
-    @media (min-width: 200px) and (max-width: 991px) {
-        #divisor3 {
-            position: absolute;
-            width:50px;
-            height: 66px;
-        }
-    }
-
-    @media (min-width: 200px) and (max-width: 991px) {
-        #foto1 {
-            position: absolute;
-            bottom:1940px;
-            right:700px;
-            width:30%;
-
-
-        }
-    }
-
-
-
 
 
 
@@ -303,26 +328,18 @@
 
 <body>
 
+<div class="row">
+    <div id="cuadrado1"><div class="col-lg-3 "><p></p></div></div>
+    <div id="cuadrado2"><div class="col-lg-3 col-md-6"><p></p></div></div>
+    <div id="foto1"><div class="col-lg-3 col-md-6"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c4a3.png" width="400px" alt="Logo"></div></div>
+    <div id="barra1"><div class="col-lg-3 col-md-6"><p></p></div></div>
+    <div id="divisor1"><div class="col-lg-3 col-md-6"><p></p></div></div>
+    <div id="barra2"><div class="col-lg-3 col-md-6"><p></p></div></div>
+    <div id="divisor2"><div class="col-lg-3 col-md-6"><p></p></div></div>
+    <div id="divisor3"><div class="col-lg-3 col-md-6"><p></p></div></div>
 
 
-
-
-<p id="cuadrado1"></p>
-
-<p id="cuadrado2"></p>
-
-<img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c4a3.png" width="400px" alt="Logo" id="foto1">
-
-<p id="barra1"></p>
-
-<p id="divisor1"></p>
-
-<p id="barra2"></p>
-
-<p id="divisor2"></p>
-
-<p id="divisor3"></p>
-
+</div>
 
 <header>
     <nav class="navegacion">
